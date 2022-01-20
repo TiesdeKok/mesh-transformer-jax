@@ -22,7 +22,7 @@
   "tpu_size": 8,
 
   "bucket": "xbrl_tag_tpu",
-  "model_dir": "finetune_dir",
+  "model_dir": "finetune_1k_v1",
 
   "train_set": "xbrl_1k.train.index",
   "val_set": {},
