@@ -22,7 +22,7 @@
   "tpu_size": 8,
 
   "bucket": "xbrl_tag_tpu",
-  "model_dir": "finetune_100k_v1_slim_f16",
+  "model_dir": "finetune_100k_v2",
 
   "train_set": "xbrl_100k.train.index",
   "val_set": {},
@@ -32,10 +32,10 @@
 
   "val_batches": 0,
   "val_every": 999,
-  "ckpt_every": 129,
-  "keep_every": 129,
+  "ckpt_every": 999,
+  "keep_every": 999,
 
-  "name": "xbrl_model_100k_v1",
+  "name": "xbrl_model_100k_v2",
   "wandb_project": "mesh-transformer-jax",
   "comment": ""
 }
